@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="535.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studentManagement.controller.StudentManageController">
+   <children>
+      <JFXTextField fx:id="txtid" labelFloat="true" layoutX="100.0" layoutY="110.0" prefHeight="25.0" prefWidth="429.0" promptText="Student ID" />
+      <JFXTextField fx:id="txtname" labelFloat="true" layoutX="100.0" layoutY="161.0" prefHeight="25.0" prefWidth="429.0" promptText="Name" />
+      <JFXTextField fx:id="txtaddress" labelFloat="true" layoutX="100.0" layoutY="208.0" prefHeight="25.0" prefWidth="429.0" promptText="Address" />
+      <JFXButton layoutX="69.0" layoutY="471.0" onAction="#btnAddStu" prefHeight="42.0" prefWidth="98.0" style="-fx-border-color: blue;" text="Add" wrapText="true" />
+      <Label layoutX="188.0" layoutY="14.0" prefHeight="42.0" prefWidth="177.0" text=" Student Detail" textFill="#121111">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableStudent" layoutX="39.0" layoutY="246.0" prefHeight="207.0" prefWidth="494.0">
+        <columns>
+          <TableColumn prefWidth="133.0" text="Student ID" />
+          <TableColumn prefWidth="200.0" text="Name" />
+            <TableColumn prefWidth="160.0" text="Address" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="234.0" layoutY="471.0" onAction="#btnDeleteStu" prefHeight="42.0" prefWidth="98.0" style="-fx-border-color: blue;" text="Delete" wrapText="true" />
+      <JFXButton fx:id="btnCancel" layoutX="400.0" layoutY="471.0" onAction="#btnCancel_onclick" prefHeight="42.0" prefWidth="98.0" style="-fx-border-color: blue;" text="Cancel" wrapText="true" />
+      <ImageView fitHeight="35.0" fitWidth="34.0" layoutX="52.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/icons8_Identification_Documents_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="52.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/icons8_Add_User_Group_Woman_Man_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="52.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/icons8_Home_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="98.0" layoutX="431.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/ijse-logo.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="48.0" layoutX="18.0" layoutY="14.0" onMouseClicked="#navigateToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/icons8_Hand_Cursor_50px_1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

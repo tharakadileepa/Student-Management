@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/dto/CourseDTO.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/bussiness/RegisterBO.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/view/util/tblmodel/StudentTM.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/dao/custom/StudentDAO.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/dao/custom/impl/RegistrationDAOImpl.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/controller/RegisterController.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/entity/Registration.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/controller/StudentManageController.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/main/StartUp.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/db/DBConnection.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/entity/Registration_PK.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/dto/RegisterDTO.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/controller/MainController.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/controller/CourseManageController.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/dao/custom/RegistrationDAO.java</file>
+            <file>file:/C:/Users/THARAKA/Desktop/All%20ijse%20Projects/Student%20Management/src/lk/ijse/studentManagement/view/util/tblmodel/RegisrerTM.java</file>
+        </group>
+    </open-files>
+</project-private>

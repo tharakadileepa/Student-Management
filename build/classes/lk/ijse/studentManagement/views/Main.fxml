@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="571.0" prefWidth="541.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.studentManagement.controller.MainController">
+   <children>
+      <ImageView fitHeight="41.0" fitWidth="220.0" layoutX="366.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/ijse-logo.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgStudent" fitHeight="113.0" fitWidth="161.0" layoutX="51.0" layoutY="129.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation">
+         <image>
+            <Image url="@../assests/icons8_Student_Male_48px_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCourse" fitHeight="106.0" fitWidth="118.0" layoutX="337.0" layoutY="132.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation">
+         <image>
+            <Image url="@../assests/icons8_Course_48px_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegistration" fitHeight="139.0" fitWidth="118.0" layoutX="212.0" layoutY="286.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation">
+         <image>
+            <Image url="@../assests/icons8_Form_50px_1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblMain" layoutX="189.0" layoutY="480.0" prefHeight="41.0" prefWidth="207.0" textFill="#8a2e2e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
